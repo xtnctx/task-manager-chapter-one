@@ -59,5 +59,6 @@ npm run ios
 <img width="300" alt="Screenshot_1759066920" src="https://github.com/user-attachments/assets/3f7c78c7-f210-47df-8728-5f21a04f282c" />
 <img width="300" alt="Screenshot_1759066938" src="https://github.com/user-attachments/assets/545c5645-2455-475e-8105-a7af4587675b" />
 <img width="300" alt="Screenshot_1759066990" src="https://github.com/user-attachments/assets/fb28c186-d1d4-4ca4-bf49-fb49ccd3d70f" />
+<img width="300" alt="Screenshot_1759067598" src="https://github.com/user-attachments/assets/9f819271-53f1-4e58-9cc4-0b5a6b4a6dad" />
 <img width="300" alt="Screenshot_1759067008" src="https://github.com/user-attachments/assets/d506a14d-ab59-4d17-ba26-f71410e7f565" />
 <img width="300" alt="Screenshot_1759067014" src="https://github.com/user-attachments/assets/359279d6-d8f6-4e94-b185-1b44ff429f31" />
