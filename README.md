@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Task Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **React Native + Expo task manager** that lets you organize tasks by date.  
+Features include adding, editing, completing, and deleting tasks with a smooth swipeable UI.
 
-## Get started
+Built with:
+- [Expo](https://expo.dev/)
+- `react-native-paper` (UI components)
+- `react-native-reanimated` & `react-native-gesture-handler` (swipe animations)
+- `react-native-safe-area-context` (safe layouts)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Calendar to pick a date and view tasks (Dummy data)
+- Add new tasks with a modal form  
+- Edit existing tasks  
+- Mark tasks as completed with a checkbox  
+- Swipe to delete tasks  
+- Animated swipeable cards  
+- Floating Action Button (FAB) to quickly add tasks  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/xtnctx/task-manager-chapter-one.git
+cd task-manager-chapter-one
+```
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+3. Run the app:
+```bash
+npm start
+
+# On Emulator, run your emulator then:
+npm run android
+# or
+npm run ios
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Usage
 
-## Learn more
+- Tap the ➕ FAB button to add a new task
+- Tap on a task to edit it
+- Swipe left on a task to delete it
+- Tap the checkbox to mark it as completed
+- Select a different date from the calendar to view tasks for that day
 
-To learn more about developing your project with Expo, look at the following resources:
+## Screenshots
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<img width="300" alt="Screenshot_1759066920" src="https://github.com/user-attachments/assets/3f7c78c7-f210-47df-8728-5f21a04f282c" />
+<img width="300" alt="Screenshot_1759066938" src="https://github.com/user-attachments/assets/545c5645-2455-475e-8105-a7af4587675b" />
+<img width="300" alt="Screenshot_1759066990" src="https://github.com/user-attachments/assets/fb28c186-d1d4-4ca4-bf49-fb49ccd3d70f" />
+<img width="300" alt="Screenshot_1759067008" src="https://github.com/user-attachments/assets/d506a14d-ab59-4d17-ba26-f71410e7f565" />
+<img width="300" alt="Screenshot_1759067014" src="https://github.com/user-attachments/assets/359279d6-d8f6-4e94-b185-1b44ff429f31" />

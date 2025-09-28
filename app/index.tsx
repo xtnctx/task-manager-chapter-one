@@ -9,8 +9,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 
 export default function Index() {
-
-
   // Dummy tasks mapped by day
   const [tasksByDate, setTasksByDate] = useState<Record<number, { title: string; description: string, completed: boolean }[]>>(
     {
